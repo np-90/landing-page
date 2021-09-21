@@ -26,10 +26,6 @@ body {
     padding: 0 16px;
 }
 
-.hero-inner {
-    color: #e5e7eb;
-}
-
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -83,14 +79,13 @@ ul {
 
 .hero {
     display: flex;
-    border-style: dotted;
-    border-width: 2px;
     color: #e5e7eb;
-    margin: 75px 0;
+    margin: 50px 0;
 }
 
 .hero-inner {
     padding: 16px;
+    color: #e5e7eb;
 }
 
 .hero h1 {
@@ -107,6 +102,7 @@ button {
     border-style: none;
     padding: 8px 24px;
     font-weight: bold;
+    border-radius: 15px;
 }
 
 .quote {
@@ -138,10 +134,31 @@ button {
 .call-to-action {
     background-color: #3882f6;
     margin: 75px 200px;
-    padding: 75px 100px;
+    padding: 64px 128px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
 }
+
+.call-to-action p {
+    font-size: 24px;
+    padding: 0;
+    margin: 4px 0;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.call-to-action span {
+    color: #e5e7eb;  
+}
+
+.call-to-action .cta {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
 
 .bottom {
     background-color: #1F2937;
